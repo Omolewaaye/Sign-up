@@ -1,0 +1,72 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+}
+*{
+    padding: 3px;
+    margin: 3px;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+    
+
+.Signup-box {
+    width: 380px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3{
+    text-align: center;
+}
+.form{
+    width: 350px;
+    margin-left: 20px;
+    display: inline-block;
+    display: flex;
+    border: none;
+    border-radius: 6px;
+   
+}
+ input[type=FirstName],input[type=LastName],input[type=Email],input[type=Password],input[type=confirm-password] {
+    width: 100%;
+    height: 5px;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    background: azure;
+ }
+ input[type=FirstName]:focus,input[type=LastName]:focus,input[type=Email]:focus,input[type=Password]:focus,input[type=Confirm-Password]:focus{
+    background-color:hsl(180, 92%, 47%);
+    outline: 10px
+ }
+
+
+.button {
+    padding: 10px 70px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(161, 225, 225);
+    border: 1px solid gray;
+    border-radius: 15px; 
+    opacity: 0.9;
+ }
+
+.button:hover {
+    opacity: 1px;
+    background-color: aquamarine;
+}
+
